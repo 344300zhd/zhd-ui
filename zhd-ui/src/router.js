@@ -12,5 +12,10 @@ export default new Router({
       name: 'Index',
       component: () => import("@/views/Index")
     },
+    {
+      path:"/border",
+      name:"Border",
+      component:()=>import("@/views/Border")
+    }
   ]
 })

@@ -1,6 +1,6 @@
 <template>
   <div class="index-box">
-    主页
+    <router-link :to="'/border'">边框</router-link>
   </div>
 </template>
 
